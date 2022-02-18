@@ -1,5 +1,5 @@
 import Header from './Header';
 import SolarSystem from './SolarSystem';
-import Title from './Title';
+import Missions from './Missions';
 
-export { Header, SolarSystem, Title };
+export { Header, SolarSystem, Missions };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, SolarSystem, Title } from './components/index';
+import { Header, SolarSystem, Missions } from './components/index';
 
 class App extends React.Component {
   render() {
@@ -7,7 +7,7 @@ class App extends React.Component {
       <>
         <Header />
         <SolarSystem />
-        <Title />
+        <Missions />
       </>
     );
   }
