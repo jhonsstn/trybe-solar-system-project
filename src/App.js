@@ -1,8 +1,15 @@
 import React from 'react';
+import { Header, SolarSystem, Title } from './components/index';
 
 class App extends React.Component {
   render() {
-    return (<p>Sistema Solar </p>);
+    return (
+      <>
+        <Header />
+        <SolarSystem />
+        <Title />
+      </>
+    );
   }
 }
 
